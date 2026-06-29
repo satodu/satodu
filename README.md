@@ -3,30 +3,27 @@
   <img src="https://github-readme-stats-xcanwin.vercel.app/api/top-langs/?username=satodu&layout=compact&theme=algolia" alt="Top Langs" width="48%" />
 </p>
 
-# Hi 👋, I'm Eduardo Neres Goulart Sato
+# Hi 👋, I'm Eduardo Sato (Panda)
 
-### Software Engineer & Tech Enthusiast
+### Tech Leader | Senior Software Architect | CTO
 
-- 💻 **Portfólio & Projetos:** Conheça meus trabalhos em **[me.pandaflow.com.br](https://me.pandaflow.com.br/)**
-- 📝 **Artigos & Conteúdo:** Escrevo regularmente em **[me.pandaflow.com.br](https://me.pandaflow.com.br/)**
-- 📄 **Currículo / Trajetória:** Confira minhas experiências detalhadas **[neste link do Google Drive](https://drive.google.com/file/d/1zAcluvxvKuB1ueSdzY7vIAqsGc2K9pFE/view?usp=sharing)**
+I am a business-oriented Software Engineer and Tech Leader with over 15 years of experience building high-availability systems, scalable distributed architectures, and production-ready GenAI solutions. I transition seamlessly between high-level technical strategy and precise, low-level codebase execution.
 
----
+💻 **Portfolio & Projects:** [me.pandaflow.com.br](http://me.pandaflow.com.br)
+🤝 **Connect with me:** [linkedin.com/in/eduardo-sato-panda](https://linkedin.com/in/eduardo-sato-panda)
 
-### 🤝 Conecte-se comigo:
-
-<p align="left">
-  <a href="https://linkedin.com/in/eduardo-sato-panda" target="blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/satodu" target="blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
 
 ---
 
-### 🛠️ Linguagens e Ferramentas
+### 🛠️ Core Stack & Expertise
+
+*   **Backend & Architecture:** Node.js (NestJS), PHP (Laravel), Python (Django, FastAPI), Distributed Systems.
+*   **AI & GenAI Pipelines:** Prompt Engineering, LLM Orchestration, Stable Diffusion Custom Training.
+*   **DevOps & Infrastructure:** AWS (Redshift, Glue, EC2), Kubernetes, Docker, GitLab CI/CD, Jenkins.
+*   **Frontend & UX:** Vue.js, React, Next.js, TypeScript, Native Qt6/PyQt6.
+*   **Ecosystems:** Core Linux enthusiast, customization, automation tools, and open-source contributions.
+
+---
 
 #### 🖥️ Backend & Frameworks
 <p align="left">
