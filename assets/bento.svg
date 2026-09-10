@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="100%" height="100%" style="background:#0b0c10; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <!-- Dot Pattern -->
+    <pattern id="bento-dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.03" />
+    </pattern>
+
+    <!-- Card Top Glow -->
+    <linearGradient id="card-stroke" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03" />
+    </linearGradient>
+
+    <!-- Red accent line -->
+    <linearGradient id="accent-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2E43" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#FF2E43" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Geist Mono', 'SF Mono', Consolas, monospace; }
+    .card-title { font-family: 'Space Grotesk', 'Cabinet Grotesk', 'Inter', -apple-system, sans-serif; font-size: 16px; font-weight: 700; fill: #FFFFFF; letter-spacing: -0.3px; }
+    .card-idx { font-size: 10.5px; fill: #FF2E43; font-weight: 600; letter-spacing: 1.2px; }
+    .card-body { font-size: 12.5px; fill: #9BA1B0; line-height: 1.4; }
+    .pill { font-size: 10.5px; fill: #7E8594; }
+    .status-text { font-size: 9.5px; fill: #656C7A; letter-spacing: 0.8px; }
+    .cross { font-size: 10px; fill: #ffffff; fill-opacity: 0.2; font-family: monospace; }
+  </style>
+
+  <rect width="900" height="360" fill="#0b0c10" />
+  <rect width="900" height="360" fill="url(#bento-dots)" />
+
+  <!-- Section Header HUD -->
+  <g transform="translate(20, 24)">
+    <text x="0" y="0" class="mono" font-size="11" fill="#FF2E43" font-weight="700">// 01_CORE_PILLARS</text>
+    <text x="145" y="0" class="mono" font-size="11" fill="#6A707E">BENTO_GRID_SPECIFICATION // HIGH_AVAILABILITY_STACK</text>
+    <line x1="0" y1="12" x2="860" y2="12" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+  </g>
+
+  <!-- ==================== CARD 1: BACKEND & DISTRIBUTED SYSTEMS ==================== -->
+  <g transform="translate(20, 52)">
+    <!-- Base Card -->
+    <rect width="420" height="138" rx="6" fill="#12141c" stroke="url(#card-stroke)" stroke-width="1" />
+    <rect x="0" y="0" width="60" height="2" fill="url(#accent-line)" />
+    <text x="402" y="18" class="cross">+</text>
+    
+    <!-- Header -->
+    <text x="18" y="24" class="mono card-idx">// 01.DISTRIBUTED_CORE</text>
+    <text x="18" y="46" class="card-title">Backend &amp; High-Availability Architecture</text>
+    
+    <!-- Body -->
+    <text x="18" y="68" class="card-body">High-throughput microservices, event-driven pipelines,</text>
+    <text x="18" y="86" class="card-body">and bulletproof enterprise fault tolerance.</text>
+    
+    <!-- Tags / Tech -->
+    <line x1="18" y1="102" x2="402" y2="102" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1" />
+    <text x="18" y="122" class="mono pill">NESTJS • FASTAPI • LARAVEL • DISTRIBUTED QUEUES</text>
+  </g>
+
+  <!-- ==================== CARD 2: GENERATIVE AI & LLM ==================== -->
+  <g transform="translate(460, 52)">
+    <!-- Base Card -->
+    <rect width="420" height="138" rx="6" fill="#12141c" stroke="url(#card-stroke)" stroke-width="1" />
+    <rect x="0" y="0" width="60" height="2" fill="url(#accent-line)" />
+    <text x="402" y="18" class="cross">+</text>
+
+    <!-- Header -->
+    <text x="18" y="24" class="mono card-idx">// 02.APPLIED_INTELLIGENCE</text>
+    <text x="18" y="46" class="card-title">Production GenAI &amp; LLM Pipelines</text>
+
+    <!-- Body -->
+    <text x="18" y="68" class="card-body">Autonomous AI orchestration, custom model training,</text>
+    <text x="18" y="86" class="card-body">Stable Diffusion pipelines, and edge inference.</text>
+
+    <!-- Tags / Tech -->
+    <line x1="18" y1="102" x2="402" y2="102" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1" />
+    <text x="18" y="122" class="mono pill">LANGCHAIN • OLLAMA • PYTORCH • STABLE DIFFUSION</text>
+  </g>
+
+  <!-- ==================== CARD 3: DEVOPS & INFRASTRUCTURE ==================== -->
+  <g transform="translate(20, 206)">
+    <!-- Base Card -->
+    <rect width="420" height="138" rx="6" fill="#12141c" stroke="url(#card-stroke)" stroke-width="1" />
+    <rect x="0" y="0" width="60" height="2" fill="url(#accent-line)" />
+    <text x="402" y="18" class="cross">+</text>
+
+    <!-- Header -->
+    <text x="18" y="24" class="mono card-idx">// 03.INFRA_&amp;_DEVSECOPS</text>
+    <text x="18" y="46" class="card-title">Cloud Infrastructure &amp; Automation</text>
+
+    <!-- Body -->
+    <text x="18" y="68" class="card-body">Multi-cloud orchestration (AWS, GCP), container clusters,</text>
+    <text x="18" y="86" class="card-body">deep Linux tuning and zero-downtime CI/CD pipelines.</text>
+
+    <!-- Tags / Tech -->
+    <line x1="18" y1="102" x2="402" y2="102" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1" />
+    <text x="18" y="122" class="mono pill">KUBERNETES • DOCKER • AWS REDSHIFT/GLUE • BASH</text>
+  </g>
+
+  <!-- ==================== CARD 4: STRATEGIC TECH LEADERSHIP ==================== -->
+  <g transform="translate(460, 206)">
+    <!-- Base Card -->
+    <rect width="420" height="138" rx="6" fill="#12141c" stroke="url(#card-stroke)" stroke-width="1" />
+    <rect x="0" y="0" width="60" height="2" fill="url(#accent-line)" />
+    <text x="402" y="18" class="cross">+</text>
+
+    <!-- Header -->
+    <text x="18" y="24" class="mono card-idx">// 04.EXECUTIVE_LEADERSHIP</text>
+    <text x="18" y="46" class="card-title">CTO &amp; Engineering Governance</text>
+
+    <!-- Body -->
+    <text x="18" y="68" class="card-body">Translating corporate vision into engineering execution,</text>
+    <text x="18" y="86" class="card-body">scaling teams, code governance and technical due-diligence.</text>
+
+    <!-- Tags / Tech -->
+    <line x1="18" y1="102" x2="402" y2="102" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1" />
+    <text x="18" y="122" class="mono pill">STRATEGY • MENTORSHIP • ARCHITECTURE REVIEW • ROI</text>
+  </g>
+</svg>

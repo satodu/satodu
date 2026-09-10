@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 310" width="100%" height="100%" style="background:#0b0c10; border-radius: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+  <defs>
+    <!-- Dot Pattern -->
+    <pattern id="dot-grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.04" />
+    </pattern>
+
+    <!-- Subtle Red Glow Gradient for ambient depth -->
+    <radialGradient id="ambient-glow" cx="85%" cy="15%" r="60%">
+      <stop offset="0%" stop-color="#FF2E43" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#0b0c10" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Linear Border Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#FF2E43" stop-opacity="0.35" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Geist Mono', 'SF Mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace; }
+    .display { font-family: 'Space Grotesk', 'Cabinet Grotesk', 'Inter', -apple-system, sans-serif; font-weight: 800; }
+    .cross { fill: #ffffff; fill-opacity: 0.18; font-family: monospace; font-size: 11px; }
+    .tag { font-size: 10px; letter-spacing: 1.5px; fill: #8E93A0; }
+    .accent { fill: #FF2E43; }
+    .subtext { fill: #9BA1B0; font-size: 13.5px; letter-spacing: 0.2px; }
+    .badge-bg { fill: #12141c; stroke: rgba(255, 255, 255, 0.08); stroke-width: 1; }
+    .badge-txt { font-size: 10.5px; fill: #D0D4DE; letter-spacing: 0.5px; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="900" height="310" fill="#0b0c10" rx="8" />
+  <rect width="900" height="310" fill="url(#dot-grid)" rx="8" />
+  <rect width="900" height="310" fill="url(#ambient-glow)" rx="8" />
+
+  <!-- Outer Hairline Border -->
+  <rect x="0.5" y="0.5" width="899" height="309" fill="none" stroke="url(#border-grad)" stroke-width="1" rx="8" />
+
+  <!-- Corner Alignment Crosses (Blueprint HUD) -->
+  <text x="25" y="32" class="cross">+</text>
+  <text x="865" y="32" class="cross">+</text>
+  <text x="25" y="285" class="cross">+</text>
+  <text x="865" y="285" class="cross">+</text>
+
+  <!-- Top Metadata Bar -->
+  <g transform="translate(45, 34)">
+    <circle cx="4" cy="0" r="3" fill="#FF2E43" />
+    <text x="14" y="3" class="mono tag" fill="#FF2E43">// SYS.ACTIVE</text>
+    <text x="135" y="3" class="mono tag">SPEC: ARCHITECT &amp; TECH_LEADER</text>
+    <text x="440" y="3" class="mono tag">LOC: SÃO PAULO, BR [23.55°S, 46.63°W]</text>
+    <text x="735" y="3" class="mono tag">ID: PANDA.0x15Y</text>
+  </g>
+
+  <!-- Hairline Divider -->
+  <line x1="45" y1="48" x2="855" y2="48" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+
+  <!-- Hero Titles with auto-flowing tspans -->
+  <g transform="translate(45, 102)">
+    <text x="0" y="0" class="display" font-size="44" fill="#FFFFFF" letter-spacing="-1.5px">
+      EDUARDO SATO <tspan class="accent" font-weight="300">/</tspan> <tspan fill="#8E93A0" font-size="34">PANDA</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(45, 138)">
+    <text x="0" y="0" class="display" font-size="19" fill="#EDEDED" letter-spacing="-0.3px">
+      SENIOR SOFTWARE ARCHITECT <tspan class="accent" font-weight="400">|</tspan> TECH LEADER <tspan class="accent" font-weight="400">|</tspan> CTO
+    </text>
+  </g>
+
+  <!-- Subtitle / Bio summary -->
+  <g transform="translate(45, 175)">
+    <text x="0" y="0" class="subtext">
+      Business-oriented engineer with 15+ years engineering high-availability distributed systems,
+    </text>
+    <text x="0" y="20" class="subtext">
+      resilient cloud infrastructure, and production-grade GenAI pipelines.
+    </text>
+  </g>
+
+  <!-- Bottom Badges / HUD Indicators -->
+  <g transform="translate(45, 238)">
+    <!-- Badge 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="32" rx="4" class="badge-bg" />
+      <circle cx="14" cy="16" r="2.5" fill="#FF2E43" />
+      <text x="26" y="20" class="mono badge-txt">15+ YRS EXPERIENCE</text>
+    </g>
+
+    <!-- Badge 2 -->
+    <g transform="translate(192, 0)">
+      <rect width="195" height="32" rx="4" class="badge-bg" />
+      <circle cx="14" cy="16" r="2.5" fill="#FF2E43" />
+      <text x="26" y="20" class="mono badge-txt">DISTRIBUTED SYSTEMS</text>
+    </g>
+
+    <!-- Badge 3 -->
+    <g transform="translate(399, 0)">
+      <rect width="190" height="32" rx="4" class="badge-bg" />
+      <circle cx="14" cy="16" r="2.5" fill="#FF2E43" />
+      <text x="26" y="20" class="mono badge-txt">GENAI &amp; LLM RUNTIMES</text>
+    </g>
+
+    <!-- Badge 4 -->
+    <g transform="translate(601, 0)">
+      <rect width="209" height="32" rx="4" class="badge-bg" />
+      <circle cx="14" cy="16" r="2.5" fill="#FF2E43" />
+      <text x="26" y="20" class="mono badge-txt">HIGH AVAILABILITY (HA)</text>
+    </g>
+  </g>
+</svg>
