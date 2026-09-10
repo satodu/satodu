@@ -1,14 +1,7 @@
 <div align="center">
 
-<!-- HERO BANNER -->
-<img src="./assets/hero.svg" alt="Eduardo Sato (Panda) - Senior Software Architect & Tech Leader" width="100%" />
-
-<br/>
-
-<!-- FASTFETCH TERMINAL CARD WITH POINTILLISM PANDA -->
-<img src="./assets/fastfetch.svg" alt="Terminal Fastfetch - Eduardo Sato (Panda)" width="100%" />
-
-<br/>
+<!-- UNIFIED MASTER ARCHITECTURE DASHBOARD & FASTFETCH -->
+<img src="./assets/dashboard.svg" alt="Eduardo Sato (Panda) - Architecture & System Telemetry" width="100%" />
 
 <!-- HUD QUICK CONNECT BAR -->
 <p align="center">
@@ -29,17 +22,14 @@
   </a>
 </p>
 
-<!-- PHILOSOPHY BANNER -->
-<img src="./assets/quote.svg" alt="Core Philosophy" width="100%" />
-
-<br/><br/>
-
-<!-- BENTO GRID -->
-<img src="./assets/bento.svg" alt="Architectural Pillars Bento Grid" width="100%" />
+<!-- GITHUB STATS & TELEMETRY (TOGETHER WITH HERO) -->
+<p align="center">
+  <img src="https://github-readme-stats-xcanwin.vercel.app/api?username=satodu&show_icons=true&bg_color=0b0c10&title_color=ff2e43&text_color=e6e6e6&icon_color=ff2e43&border_color=20242e&hide=contribs,prs" alt="GitHub Stats" height="160" />
+  &nbsp;
+  <img src="https://github-readme-stats-xcanwin.vercel.app/api/top-langs/?username=satodu&layout=compact&bg_color=0b0c10&title_color=ff2e43&text_color=e6e6e6&border_color=20242e" alt="Top Languages" height="160" />
+</p>
 
 </div>
-
-<br/>
 
 ---
 
@@ -86,23 +76,6 @@
 <p align="left">
   <img src="https://skillicons.dev/icons?i=grafana,git,webpack,gulp,babel,figma,photoshop,unity&theme=dark" alt="Tooling" />
 </p>
-
-<br/>
-
----
-
-### `// 03. SYSTEM_TELEMETRY`
-
-<p align="center">
-  <a href="https://github.com/satodu">
-    <img src="https://github-readme-stats-xcanwin.vercel.app/api?username=satodu&show_icons=true&bg_color=0b0c10&title_color=ff2e43&text_color=e6e6e6&icon_color=ff2e43&border_color=20242e&hide=contribs,prs" alt="GitHub Stats" width="49%" />
-  </a>
-  <a href="https://github.com/satodu">
-    <img src="https://github-readme-stats-xcanwin.vercel.app/api/top-langs/?username=satodu&layout=compact&bg_color=0b0c10&title_color=ff2e43&text_color=e6e6e6&border_color=20242e" alt="Top Languages" width="49%" />
-  </a>
-</p>
-
-<br/>
 
 ---
 
