@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- 01. TERMINAL PROFILE: FASTFETCH WITH POINTILLISM PANDA -->
-<img src="./assets/fastfetch.svg" alt="Terminal Fastfetch - Eduardo Sato (Panda)" width="100%" />
+<!-- 01. HERO BANNER: IDENTITY & EXECUTIVE SUMMARY -->
+<img src="./assets/hero.svg" alt="Eduardo Sato (Panda) - Senior Software Architect & Tech Leader" width="100%" />
 
 <!-- HUD QUICK CONNECT BAR -->
 <p align="center">
@@ -22,15 +22,13 @@
   </a>
 </p>
 
-<!-- 02. TERMINAL SPECIFICATION: TECH STACK MATRIX -->
+<!-- 02. TERMINAL PROFILE: FASTFETCH WITH POINTILLISM PANDA -->
+<img src="./assets/fastfetch.svg" alt="Terminal Fastfetch - Eduardo Sato (Panda)" width="100%" />
+
+<!-- 03. TERMINAL SPECIFICATION: TECH STACK MATRIX -->
 <img src="./assets/techstack.svg" alt="Tech Stack Matrix - Terminal Specification" width="100%" />
 
-<!-- ICON QUICK MATRIX -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,python,fastapi,django,nodejs,nestjs,rust,c,react,nextjs,vue,nuxtjs,ts,pytorch,tensorflow,docker,kubernetes,aws,linux,postgres,redis,kafka&theme=dark" alt="Skill Icons Matrix" />
-</p>
-
-<!-- 03. SYSTEM TELEMETRY: GITHUB STATS & METRICS -->
+<!-- 04. SYSTEM TELEMETRY: GITHUB STATS & METRICS -->
 <p align="center">
   <img src="https://github-readme-stats-xcanwin.vercel.app/api?username=satodu&show_icons=true&bg_color=0b0c10&title_color=ff2e43&text_color=e6e6e6&icon_color=ff2e43&border_color=20242e&hide=contribs,prs" alt="GitHub Stats" height="160" />
   &nbsp;
