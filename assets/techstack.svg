@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%" style="background:#0b0c10; font-family: 'JetBrains Mono', 'Geist Mono', 'SF Mono', Consolas, monospace;">
+  <defs>
+    <!-- Dot Pattern -->
+    <pattern id="tech-dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.03" />
+    </pattern>
+
+    <!-- Top Glow Gradient -->
+    <linearGradient id="tech-stroke" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03" />
+    </linearGradient>
+
+    <linearGradient id="pill-hover" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2E43" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#161924" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="900" height="480" fill="#0b0c10" rx="8" />
+  <rect width="900" height="480" fill="url(#tech-dots)" rx="8" />
+
+  <!-- Terminal Window Box -->
+  <rect x="15" y="15" width="870" height="450" rx="8" fill="#12141c" stroke="url(#tech-stroke)" stroke-width="1" />
+
+  <!-- Terminal Title Bar -->
+  <path d="M 15 23 A 8 8 0 0 1 23 15 L 877 15 A 8 8 0 0 1 885 23 L 885 48 L 15 48 Z" fill="#161922" />
+  <line x1="15" y1="48" x2="885" y2="48" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+
+  <!-- Window Controls -->
+  <circle cx="38" cy="31" r="5" fill="#FF2E43" />
+  <circle cx="55" cy="31" r="5" fill="#E5A93C" />
+  <circle cx="72" cy="31" r="5" fill="#2AC372" />
+
+  <!-- Window Title -->
+  <text x="450" y="36" fill="#8E93A0" font-size="12" text-anchor="middle" letter-spacing="0.5px">panda@satodu-workstation: ~ (tech-stack --all)</text>
+  <text x="860" y="35" fill="#5A5F6D" font-size="10" text-anchor="end">[ 5 DOMAINS // PROD_READY ]</text>
+
+  <!-- Corner Crosses -->
+  <text x="28" y="68" fill="#ffffff" fill-opacity="0.2" font-size="11">+</text>
+  <text x="862" y="68" fill="#ffffff" fill-opacity="0.2" font-size="11">+</text>
+  <text x="28" y="450" fill="#ffffff" fill-opacity="0.2" font-size="11">+</text>
+  <text x="862" y="450" fill="#ffffff" fill-opacity="0.2" font-size="11">+</text>
+
+  <!-- Main Terminal Prompt Header -->
+  <g transform="translate(40, 78)">
+    <text x="0" y="0" font-size="14" font-weight="bold">
+      <tspan fill="#FF2E43">panda</tspan><tspan fill="#8E93A0">@</tspan><tspan fill="#FFFFFF">satodu</tspan><tspan fill="#7A8191">:~$</tspan> <tspan fill="#EDEDED">cat ~/.config/stack/matrix.spec</tspan>
+    </text>
+    <line x1="0" y1="12" x2="820" y2="12" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+  </g>
+
+  <!-- ==================== TECH SECTIONS ==================== -->
+  <g transform="translate(40, 110)">
+    <!-- SECTION 01: BACKEND -->
+    <g transform="translate(0, 0)">
+      <circle cx="4" cy="4" r="3" fill="#FF2E43" />
+      <text x="16" y="8" font-size="12" font-weight="bold" fill="#FF2E43">01. BACKEND &amp; DISTRIBUTED SYSTEMS</text>
+      <text x="290" y="8" font-size="10.5" fill="#6D7382">[ Microservices // High Availability // Queues ]</text>
+      
+      <!-- Tech tags line -->
+      <g transform="translate(16, 20)" font-size="11">
+        <text x="0" y="0" fill="#FFFFFF">Node.js (NestJS)</text>
+        <text x="130" y="0" fill="#FF2E43">•</text>
+        <text x="145" y="0" fill="#FFFFFF">Python (FastAPI, Django)</text>
+        <text x="340" y="0" fill="#FF2E43">•</text>
+        <text x="355" y="0" fill="#FFFFFF">PHP (Laravel)</text>
+        <text x="465" y="0" fill="#FF2E43">•</text>
+        <text x="480" y="0" fill="#FFFFFF">Rust</text>
+        <text x="525" y="0" fill="#FF2E43">•</text>
+        <text x="540" y="0" fill="#FFFFFF">C</text>
+        <text x="565" y="0" fill="#FF2E43">•</text>
+        <text x="580" y="0" fill="#A8ADB8">Distributed Queues</text>
+      </g>
+      <line x1="16" y1="32" x2="820" y2="32" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1" />
+    </g>
+
+    <!-- SECTION 02: GENAI & LLMs -->
+    <g transform="translate(0, 56)">
+      <circle cx="4" cy="4" r="3" fill="#FF2E43" />
+      <text x="16" y="8" font-size="12" font-weight="bold" fill="#FF2E43">02. GENERATIVE AI &amp; MACHINE INTELLIGENCE</text>
+      <text x="355" y="8" font-size="10.5" fill="#6D7382">[ RAG // Model Orchestration // Stable Diffusion ]</text>
+
+      <!-- Tech tags line -->
+      <g transform="translate(16, 20)" font-size="11">
+        <text x="0" y="0" fill="#FFFFFF">PyTorch</text>
+        <text x="70" y="0" fill="#FF2E43">•</text>
+        <text x="85" y="0" fill="#FFFFFF">TensorFlow</text>
+        <text x="175" y="0" fill="#FF2E43">•</text>
+        <text x="190" y="0" fill="#FFFFFF">LangChain</text>
+        <text x="275" y="0" fill="#FF2E43">•</text>
+        <text x="290" y="0" fill="#FFFFFF">Ollama</text>
+        <text x="350" y="0" fill="#FF2E43">•</text>
+        <text x="365" y="0" fill="#FFFFFF">Hugging Face</text>
+        <text x="475" y="0" fill="#FF2E43">•</text>
+        <text x="490" y="0" fill="#FFFFFF">Stable Diffusion (Custom Training)</text>
+      </g>
+      <line x1="16" y1="32" x2="820" y2="32" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1" />
+    </g>
+
+    <!-- SECTION 03: CLOUD & DEVSECOPS -->
+    <g transform="translate(0, 112)">
+      <circle cx="4" cy="4" r="3" fill="#FF2E43" />
+      <text x="16" y="8" font-size="12" font-weight="bold" fill="#FF2E43">03. CLOUD INFRASTRUCTURE &amp; DEVSECOPS</text>
+      <text x="330" y="8" font-size="10.5" fill="#6D7382">[ Kubernetes // CI/CD // Linux Kernel Tuning ]</text>
+
+      <!-- Tech tags line -->
+      <g transform="translate(16, 20)" font-size="11">
+        <text x="0" y="0" fill="#FFFFFF">Linux (Core/Kernel)</text>
+        <text x="165" y="0" fill="#FF2E43">•</text>
+        <text x="180" y="0" fill="#FFFFFF">Kubernetes</text>
+        <text x="270" y="0" fill="#FF2E43">•</text>
+        <text x="285" y="0" fill="#FFFFFF">Docker</text>
+        <text x="345" y="0" fill="#FF2E43">•</text>
+        <text x="360" y="0" fill="#FFFFFF">AWS (Redshift, Glue, EC2)</text>
+        <text x="570" y="0" fill="#FF2E43">•</text>
+        <text x="585" y="0" fill="#FFFFFF">GCP / Azure</text>
+      </g>
+      <g transform="translate(16, 36)" font-size="11">
+        <text x="0" y="0" fill="#FFFFFF">Kafka</text>
+        <text x="50" y="0" fill="#FF2E43">•</text>
+        <text x="65" y="0" fill="#FFFFFF">RabbitMQ</text>
+        <text x="140" y="0" fill="#FF2E43">•</text>
+        <text x="155" y="0" fill="#FFFFFF">PostgreSQL</text>
+        <text x="250" y="0" fill="#FF2E43">•</text>
+        <text x="265" y="0" fill="#FFFFFF">MySQL</text>
+        <text x="320" y="0" fill="#FF2E43">•</text>
+        <text x="335" y="0" fill="#FFFFFF">MongoDB</text>
+        <text x="405" y="0" fill="#FF2E43">•</text>
+        <text x="420" y="0" fill="#FFFFFF">Redis</text>
+        <text x="475" y="0" fill="#FF2E43">•</text>
+        <text x="490" y="0" fill="#FFFFFF">GitLab CI / Jenkins</text>
+      </g>
+      <line x1="16" y1="48" x2="820" y2="48" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1" />
+    </g>
+
+    <!-- SECTION 04: FRONTEND & CLIENT -->
+    <g transform="translate(0, 184)">
+      <circle cx="4" cy="4" r="3" fill="#FF2E43" />
+      <text x="16" y="8" font-size="12" font-weight="bold" fill="#FF2E43">04. FRONTEND ARCHITECTURE &amp; INTERFACES</text>
+      <text x="330" y="8" font-size="10.5" fill="#6D7382">[ Reactive State // Cross-Platform // Desktop GUI ]</text>
+
+      <!-- Tech tags line -->
+      <g transform="translate(16, 20)" font-size="11">
+        <text x="0" y="0" fill="#FFFFFF">React</text>
+        <text x="50" y="0" fill="#FF2E43">•</text>
+        <text x="65" y="0" fill="#FFFFFF">Next.js</text>
+        <text x="130" y="0" fill="#FF2E43">•</text>
+        <text x="145" y="0" fill="#FFFFFF">Vue.js</text>
+        <text x="205" y="0" fill="#FF2E43">•</text>
+        <text x="220" y="0" fill="#FFFFFF">Nuxt.js</text>
+        <text x="290" y="0" fill="#FF2E43">•</text>
+        <text x="305" y="0" fill="#FFFFFF">TypeScript</text>
+        <text x="395" y="0" fill="#FF2E43">•</text>
+        <text x="410" y="0" fill="#FFFFFF">Electron</text>
+        <text x="485" y="0" fill="#FF2E43">•</text>
+        <text x="500" y="0" fill="#FFFFFF">Cordova</text>
+        <text x="570" y="0" fill="#FF2E43">•</text>
+        <text x="585" y="0" fill="#FFFFFF">Qt6 / PyQt6</text>
+      </g>
+      <line x1="16" y1="32" x2="820" y2="32" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1" />
+    </g>
+
+    <!-- SECTION 05: OBSERVABILITY & TOOLS -->
+    <g transform="translate(0, 240)">
+      <circle cx="4" cy="4" r="3" fill="#FF2E43" />
+      <text x="16" y="8" font-size="12" font-weight="bold" fill="#FF2E43">05. OBSERVABILITY &amp; TOOLING</text>
+      <text x="260" y="8" font-size="10.5" fill="#6D7382">[ Metrics // Telemetry // Design Systems ]</text>
+
+      <!-- Tech tags line -->
+      <g transform="translate(16, 20)" font-size="11">
+        <text x="0" y="0" fill="#FFFFFF">Grafana</text>
+        <text x="70" y="0" fill="#FF2E43">•</text>
+        <text x="85" y="0" fill="#FFFFFF">Git</text>
+        <text x="120" y="0" fill="#FF2E43">•</text>
+        <text x="135" y="0" fill="#FFFFFF">Webpack</text>
+        <text x="205" y="0" fill="#FF2E43">•</text>
+        <text x="220" y="0" fill="#FFFFFF">Gulp / Babel</text>
+        <text x="325" y="0" fill="#FF2E43">•</text>
+        <text x="340" y="0" fill="#FFFFFF">Figma</text>
+        <text x="395" y="0" fill="#FF2E43">•</text>
+        <text x="410" y="0" fill="#FFFFFF">Photoshop</text>
+        <text x="495" y="0" fill="#FF2E43">•</text>
+        <text x="510" y="0" fill="#FFFFFF">Unity</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Base Status & Palette Bar -->
+  <g transform="translate(40, 435)">
+    <text x="0" y="0" font-size="10" fill="#FF2E43" font-weight="bold">[ STATUS: ALL_SYSTEMS_OPERATIONAL ]</text>
+    <text x="285" y="0" font-size="10" fill="#6D7382">// 15+ YEARS CONTINUOUS ARCHITECTURE</text>
+
+    <!-- Color blocks -->
+    <g transform="translate(595, -9)">
+      <rect x="0" y="0" width="22" height="10" fill="#0b0c10" stroke="#3D424F" stroke-width="0.5" />
+      <rect x="26" y="0" width="22" height="10" fill="#FF2E43" />
+      <rect x="52" y="0" width="22" height="10" fill="#E5A93C" />
+      <rect x="78" y="0" width="22" height="10" fill="#2AC372" />
+      <rect x="104" y="0" width="22" height="10" fill="#3B82F6" />
+      <rect x="130" y="0" width="22" height="10" fill="#8B5CF6" />
+      <rect x="156" y="0" width="22" height="10" fill="#8E93A0" />
+      <rect x="182" y="0" width="22" height="10" fill="#FFFFFF" />
+    </g>
+  </g>
+</svg>
